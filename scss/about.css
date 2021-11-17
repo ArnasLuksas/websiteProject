@@ -1,0 +1,39 @@
+.inner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.inner-container .story {
+  font-weight: 300;
+  font-size: 1.1rem;
+  text-align: center;
+  max-width: 496px;
+  padding: 2rem;
+  text-align: left;
+}
+
+.inner-container .weAre {
+  margin-bottom: 4rem;
+  font-weight: 300;
+  max-width: 496px;
+  padding: 2rem;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.inner-container .weAre ul li {
+  list-style: none;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
+.footer-container {
+  border-top: 1px solid black;
+}
+/*# sourceMappingURL=about.css.map */
