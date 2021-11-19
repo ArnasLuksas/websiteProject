@@ -1,0 +1,102 @@
+.inner-container {
+    margin: 6rem 0;
+    width: 100%;
+    height: 100%;
+    .vase-img {
+        max-width: 480px;
+        width: 100%;
+        height: 100%;
+
+        img {
+            width: 100%;
+            padding: 1rem;
+            border-radius: 20px;
+        }
+    }
+    .vase-description {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 480px;
+        padding: 2rem;
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+        h2 {
+            font-size: 1.5rem;
+            margin: 0;
+            margin-top: -2rem;
+        }
+        .price {
+            margin: 1rem 0;
+            padding: 1rem 0;
+            font-size: 1.4rem;
+            text-align: center;
+            letter-spacing: 0.1rem;
+        }
+        button {
+            width: 140px;
+            color: white;
+            height: 60px;
+            background-color: #252f2b;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            margin: 0 auto;
+            border-radius: 5px;
+        }
+        button:hover {
+            opacity: 0.9;
+        }
+        .description {
+            width: 100%;
+            text-align: left;
+            font-size: 1rem;
+            margin: 2rem 0;
+            line-height: 1.7rem;
+        }
+        .fabric {
+            margin: 1rem 0;
+            font-size: 1rem;
+        }
+        ul {
+            list-style-type: square;
+            text-align: left;
+            li {
+                font-size: 0.9rem;
+            }
+        }
+    }
+    .popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        .popup-content {
+            margin: 200px auto;
+            width: 320px;
+            background-color: #5b6e5b;
+            border-radius: 15px;
+            .close {
+                text-align: right;
+                padding: 15px 15px 0 0;
+
+                cursor: pointer;
+
+                img {
+                    width: 30px;
+                }
+            }
+            p {
+                color: white;
+                text-align: center;
+                font-size: 1rem;
+                padding: 0.5rem 1.9rem 3rem 1.9rem;
+                line-height: 2;
+            }
+        }
+    }
+}

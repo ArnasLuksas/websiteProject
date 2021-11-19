@@ -1,0 +1,122 @@
+.inner-container {
+  margin: 6rem 0;
+  width: 100%;
+  height: 100%;
+}
+
+.inner-container .vase-img {
+  max-width: 480px;
+  width: 100%;
+  height: 100%;
+}
+
+.inner-container .vase-img img {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.inner-container .vase-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 480px;
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.inner-container .vase-description h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  margin-top: -2rem;
+}
+
+.inner-container .vase-description .price {
+  margin: 1rem 0;
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.inner-container .vase-description button {
+  width: 140px;
+  color: white;
+  height: 60px;
+  background-color: #252f2b;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.inner-container .vase-description button:hover {
+  opacity: 0.9;
+}
+
+.inner-container .vase-description .description {
+  width: 100%;
+  text-align: left;
+  font-size: 1rem;
+  margin: 2rem 0;
+  line-height: 1.7rem;
+}
+
+.inner-container .vase-description .fabric {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.inner-container .vase-description ul {
+  list-style-type: square;
+  text-align: left;
+}
+
+.inner-container .vase-description ul li {
+  font-size: 0.9rem;
+}
+
+.inner-container .popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.inner-container .popup .popup-content {
+  margin: 200px auto;
+  width: 320px;
+  background-color: #5b6e5b;
+  border-radius: 15px;
+}
+
+.inner-container .popup .popup-content .close {
+  text-align: right;
+  padding: 15px 15px 0 0;
+  cursor: pointer;
+}
+
+.inner-container .popup .popup-content .close img {
+  width: 30px;
+}
+
+.inner-container .popup .popup-content p {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.5rem 1.9rem 3rem 1.9rem;
+  line-height: 2;
+}
+/*# sourceMappingURL=vase.css.map */
