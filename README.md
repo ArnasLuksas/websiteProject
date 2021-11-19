@@ -1,4 +1,4 @@
-<h1><a href="https://jovial-galileo-5ce76c.netlify.app/">Live site</a></h1>
+<h1><a href="https://hungry-brown-f2751d.netlify.app/">Live site</a></h1>
 
 
 ## Technologies
@@ -7,4 +7,5 @@
 - CSS + media queries
 - JavaScript
 
-<img width="1675" alt="" src="">
+<img width="1275" alt="" src="https://github.com/ArnasLuksas/websiteProject/blob/main/img/screen2.png">
+<img width="1275" alt="" src="https://github.com/ArnasLuksas/websiteProject/blob/main/img/screen01.png">
